@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			
+			
+			.icon 
+			{
+			  padding: 10px;
+			  background: dodgerblue;
+			  color: white;
+			  min-width: 50px;
+			  text-align: center;
+			}
+			input[type=text] { 
+				font-family:Arial;
+				width: 100%; 
+				padding: 12px 40px; 
+				margin: 8px 0; 
+				display: inline-block; 
+				border: 1px solid #ccc; 
+				box-sizing: border-box; 
+			} 
+			.search{
+				background-image: url('mic.png');
+				background-repeat: no-repeat;
+				background-position:590px 10px;
+			}
+			.inputfield { 
+				
+				width:50%;
+				position: relative; 
+				
+			} 
+			
+			.inputfield i{ 
+				position: absolute; 
+				left: 15px; 
+				top: 19px; 
+				color: grey;
+			} 
+			
+			.submit{
+				border-radius:7px;
+				border : 2px solid #ffffff;	
+				width:150px;
+				height:40px;
+				color:#5e6360;
+			}
+			
+		</style>
+    </head>
+    <body><br><br><br>
+	<div style="float:right" >
+	<a style="text-decoration:none"  href="index.html">Google Search</a>&nbsp&nbsp
+	<a style="text-decoration:none"  href="googleadvsearch.html">Google Advanced Search</a></p>
+	</div><br><br><br><br><br><br><br><br>
+		<center>
+		<img style="width:22%" src="googleimageslogo.png"></img><br><br><br>
+        <form action="http://images.google.com/search">
+			<div class="inputfield"> 
+				<input type="hidden" name="tbm" value="isch">
+				<input class="search" style="border-radius:20px;height=:25px" type="text" name="q">
+				<a href="">
+				<i style="padding-left:3px" class="fa fa-camera"></i>
+				</a>
+			</div><br>
+            <input class="submit" type="submit" value="Google Search"/>&nbsp
+			<input class="submit" type="submit" value="I'm Feeling Lucky"/>
+        </form>
+		</center>
+    </body>
+</html>
